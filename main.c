@@ -9,8 +9,8 @@ return *c;
 int main()
 {
 int c;
-//rk_readkey(c);
-read(2, &c, 2);
+rk_readkey(&c);
+//read(2, &c, 2);
 printf("c = %d\n", c);
 printf("%c\n", c);
 	return 0;
